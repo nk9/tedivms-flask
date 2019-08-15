@@ -57,7 +57,7 @@ In addition the front end uses the open source versions of:
 First we recommend either cloning this repository with the "Use this template" button on Github.
 
 
-We assume that you have `make` and `docker`.
+We assume that you have `make` and `docker` and that Docker is running. (For OS X, download and install [Docker Desktop](https://docs.docker.com/docker-for-mac/install/).)
 
     # Clone the code repository into ~/dev/my_app
     mkdir -p ~/dev
@@ -70,7 +70,7 @@ We assume that you have `make` and `docker`.
 
     # Create the 'my_app' virtual environment and start docker containers
     make testenv
-
+    
     # Restart docker app container
     docker-compose restart app
 
